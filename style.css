@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header stert*/
+header{
+    width: 100%;
+    height: 63px;
+    position: relative;
+background-color: #000;
+  
+}
+header div{
+    float: left;
+    justify-content: space-between;}
+    header .logo h1{
+        margin-left: 180px;
+  bottom: 6px;
+      position: relative;
+      color: #fff;
+      font-size: 25px;
+    }
+    header .navbar{
+        bottom:6px;
+        right: 0;
+        position: absolute;
+    margin-right: 200px;
+}
+    header .navbar ul{
+        list-style: none;
+
+    }
+    header .navbar ul li{
+        float: left;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+ header .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+
+ }
+ header .navbar ul li:hover a {
+    color: #f70521;
+    transition: all ease-in 0.5s;
+ }
+ /*header end*/
+ /*section1 stert*/
+.section1 {
+    width: 100%;
+    height: 600px;
+    background-color: #020203;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    
+}
+.text1 .img1{
+    width: 50%;
+   
+}
+.text1{
+    margin-bottom: 80px;
+}
+.text1 h1{
+    color: white;
+    margin-left: 120px ;
+    width: 300px;
+    font-size: 80px;
+  
+    line-height: 40px;
+    height: auto;
+    animation: ani 5s ; 
+
+  
+}
+@keyframes ani{
+0%{
+    color: white;
+    text-shadow: none;
+ margin-bottom: 400px;
+   
+}
+100%{
+    
+    color:white ;
+   margin-bottom: 10pxpx;
+}
+}
+.text1 h1 span{
+    font-size: 30px;
+  
+}
+
+.img1 img{
+    width: 500px;
+   
+    margin-right: 120px;
+    margin-bottom: 80px;
+    animation: im 5s;
+   
+
+}
+@keyframes im{
+    0%{
+        margin-bottom: 650px;
+        box-shadow: none;
+    }
+    100%{
+      margin-bottom: 80px;
+      box-shadow: #f70521 30px;
+    }
+}
+.text1 p{
+    color: white ;
+    width: 400px;
+    margin-left: 120px;
+margin-top: -7%;
+opacity: 0.7;
+animation: anyp 5s;}
+@keyframes anyp{
+    0%{
+        color: #f5f5f5;
+        text-shadow: none;
+     
+        margin-left: 0px;
+    }
+    100%{
+        
+        color:white ;
+       margin-left: 120px;
+    }
+}
+.text1 input{
+width: 200px;
+height: 40px;
+background-color: #f70521;
+margin-left: 120px;
+border-radius:30px;
+border: none;
+font-size: 20px;
+font-weight: bold;
+outline: none;
+color: white;
+animation: ay 5s;
+}
+@keyframes ay{
+    0%{
+       
+       
+     
+        margin-left: 0px;
+    }
+    100%{
+        
+       
+       margin-left: 120px;
+    }
+}
+ 
+
+
+
+  
+
+
+
+ /*section1 end*/
